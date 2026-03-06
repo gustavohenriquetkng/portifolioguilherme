@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta Tags Essenciais -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional de Guilherme Augusto - Técnico em Informática e Desenvolvedor Web">
+    <meta name="keywords" content="portfólio, desenvolvedor, técnico em informática, web design">
+    <meta name="author" content="Guilherme Augusto">
+    <meta name="theme-color" content="#7c4dff">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="img/fotoperfil.jpeg">
+    <link rel="apple-touch-icon" href="img/fotoperfil.jpeg">
+    
+    <!-- Preload de Recursos Críticos -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/script.js" as="script">
+    
+    <!-- Font Awesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVJkEZSMUkrQ6usKGiOW31OvTkw3Junqg76gnSTd064h5+8MhocT7+gNwjX1on9/5HOiCeNVV3wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Google Fonts - Inter (Tipografia Moderna) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Estilos CSS Modularizados -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Guilherme Augusto | Portfólio Profissional</title>
+</head>
+<body>
+    <!-- ========== NAVBAR FIXA ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <!-- Logo -->
+            <div class="navbar-logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">Guilherme <span class="logo-accent">Augusto</span></span>
+                </a>
+            </div>
+            
+            <!-- Menu Desktop -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#experiencia" class="nav-link">Experiência</a></li>
+                <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            
+            <!-- Botão Menu Mobile -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Alternar menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== CONTEÚDO PRINCIPAL ========== -->
+    <main class="main-content">
+        
+        <!-- ========== SEÇÃO HERO ========== -->
+        <section id="home" class="section hero" data-parallax>
+            <div class="hero-content">
+                <div class="hero-text reveal-up">
+                    <h1 class="hero-title">
+                        Olá, sou <span class="gradient-text">Guilherme</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Técnico em Informática.
+                    </p>
+                    <p class="hero-description">
+                        Desenvolver atividades na área de infraestrutura de TI, garantindo suporte, manutenção e funcionamento adequado dos recursos tecnológicos.
+                    </p>
+                </div>
+                
+                <!-- Imagem de Perfil -->
+                <div class="hero-image reveal-up" style="animation-delay: 0.2s;">
+                    <div class="image-wrapper">
+                        <img src="img/fotoperfil.jpeg" alt="Foto de Perfil - Guilherme Augusto" class="profile-image">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <span>Rolar para explorar</span>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SEÇÃO SOBRE ========== -->
+        <section id="sobre" class="section about">
+            <div class="container">
+                <h2 class="section-title reveal-up">Sobre Mim</h2>
+        
+                <div class="about-content">
+                    <div class="about-text reveal-up">
+                        <p class="about-intro">
+                        <p class="about-description">
+                            Sou <strong>Guilherme Augusto</strong>, um jovem profissional de 18 anos formado em <strong>Técnico
+                                em Informática</strong> pelo <strong>Centro Universitário AlfaUnipac</strong>. Minha paixão por
+                            tecnologia me impulsiona a buscar constantemente novos conhecimentos e aprimorar minhas habilidades
+                            na área de tecnologia da informação.
+                        </p>
+        
+                        <p class="about-description">
+                            Possuo conhecimentos em suporte técnico, manutenção de hardware, instalação e configuração de
+                            sistemas operacionais, além de noções de infraestrutura de TI. Estou preparado para contribuir em
+                            equipes dinâmicas, auxiliando no suporte aos usuários e no bom funcionamento dos recursos
+                            tecnológicos.
+                        </p>
+        
+                        <p class="about-description">
+                            Atualmente, busco minha primeira oportunidade no mercado de tecnologia para aplicar meus
+                            conhecimentos, desenvolver minha experiência profissional e crescer na área de suporte e
+                            infraestrutura em TI.
+                        </p>
+                    </div>
+                    
+                    <!-- Cards de Informações Rápidas -->
+                    <div class="info-cards">
+                        <div class="info-card reveal-up">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Formação</h3>
+                            <p>Técnico em Informática</p>
+                            <span class="card-detail">Centro Universitário AlfaUnipac</span>
+                        </div>
+                        
+                        <div class="info-card reveal-up" style="animation-delay: 0.1s;">
+                            <div class="card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Localização</h3>
+                            <p>Teófilo Otoni, Brasil</p>
+                            <span class="card-detail">Disponível para trabalhar</span>
+                        </div>
+                        
+                        <div class="info-card reveal-up" style="animation-delay: 0.2s;">
+                            <div class="card-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Especialidade</h3>
+                            <p>Infraestrutura de TI</p>
+                            <span class="card-detail">Suporte Técnico, Manutenção de Computadores, Redes Básicas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SEÇÃO EXPERIÊNCIA ========== -->
+        <section id="experiencia" class="section experience">
+            <div class="container">
+                <h2 class="section-title reveal-up">Experiência Profissional</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item reveal-up">
+                        <div class="timeline-marker">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-content glass">
+                            <span class="timeline-date">2023 - 2024</span>
+                            <h3 class="timeline-title">Suporte Técnico (Prática)</h3>
+                            <p class="timeline-company">Projetos Acadêmicos & Estágio</p>
+                            <p class="timeline-description">
+                                Atuei no diagnóstico e resolução de problemas de hardware e software, realizando manutenção preventiva e corretiva em diversos equipamentos de informática.
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item reveal-up" style="animation-delay: 0.1s;">
+                        <div class="timeline-marker">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-content glass">
+                            <span class="timeline-date">2024 - 2026</span>
+                            <h3 class="timeline-title">Formação Técnica</h3>
+                            <p class="timeline-company">Centro Universitário AlfaUnipac</p>
+                            <p class="timeline-description">
+                                Conclusão do curso Técnico em Informática com foco em redes de computadores, manutenção de hardware, suporte técnico e infraestrutura de TI. Durante a formação, desenvolvi atividades práticas relacionadas à instalação, configuração e manutenção de equipamentos e sistemas. O curso foi realizado no Centro Universitário AlfaUnipac, e durante o período de estágio contei com a supervisão de Danilo Rodrigues Ribeiro, chefe de infraestrutura da instituição, o que contribuiu para o desenvolvimento da minha experiência prática na área de tecnologia da informação.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SEÇÃO HABILIDADES ========== -->
+        <section id="habilidades" class="section skills">
+          <div class="container">
+    <h2 class="section-title reveal-up">Minhas Habilidades</h2>
+    
+    <div class="skills-grid">
+        
+        <!-- Coluna 1: Hardware & Suporte -->
+        <div class="skills-column reveal-up">
+            <h3 class="skills-category">Hardware & Suporte</h3>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Manutenção de Hardware</span>
+                    <span class="skill-percentage">99%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 0%" data-width="99%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Suporte ao Usuário</span>
+                    <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 0%" data-width="88%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Sistemas Operacionais</span>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 0%" data-width="90%"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Coluna 2: Infraestrutura de TI -->
+        <div class="skills-column reveal-up" style="animation-delay: 0.1s;">
+            <h3 class="skills-category">Infraestrutura de TI</h3>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Redes de Computadores</span>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 0%" data-width="90%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Instalação e Configuração</span>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 0%" data-width="90%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-name">Diagnóstico de Problemas</span>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 0%" data-width="90%"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+        </section>
+        <!-- ========== SEÇÃO CONTATO ========== -->
+        <section id="contato" class="section contact">
+            <div class="container">
+                <h2 class="section-title reveal-up">Vamos Conversar?</h2>
+                
+                <div class="contact-wrapper">
+                    <p class="contact-subtitle reveal-up">
+                        Estou sempre aberto a novas oportunidades e conversas interessantes. Sinta-se à vontade para entrar em contato!
+                    </p>
+                    
+                    <div class="contact-methods reveal-up">
+                        <a href="mailto:guilhermeaugusto230807@gmail.com" class="contact-card glass">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>guilhermeaugusto230807@gmail.com</p>
+                        </a>
+                        
+                        <a href="https://linkedin.com/in/guilhermeaugusto" target="_blank" rel="noopener noreferrer" class="contact-card glass">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <h3>LinkedIn</h3>
+                            <p>Conecte comigo</p>
+                        </a>
+                        
+                        <a href="https://w.app/tfu1ad" target="_blank" rel="noopener noreferrer" class="contact-card glass">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <h3>WhatsApp</h3>
+                            <p>Converse comigo</p>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-cta reveal-up">
+                        <a href="curriculo/curriculo_guilherme_augusto_v2.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Baixar Currículo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Guilherme Augusto. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="js/script.js" defer></script>
+</body>
+</html>
